@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(246, 247, 248);
+}
+
+.container {
+  width: 856px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  height: 33px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul li {
+  padding: 40px;
+}
+
+header {
+  width: 100%;
+  height: 547px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+header .container .box {
+  width: 480px;
+  height: 390px;
+  line-height: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+}
+header .container .box .box-h1 {
+  font-size: 44px;
+  line-height: 60px;
+}
+header .container .box .box-p {
+  font-size: 16px;
+  line-height: 23px;
+}
+header .container .box .box-btn {
+  width: 208px;
+  height: 47px;
+  border: none;
+  background-color: #FF6464;
+  margin-right: 160px;
+}
+header .container .img-box {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/img/Ellipse 1.jpg");
+}
+
+.posts {
+  width: 100%;
+  height: 396px;
+  background-color: #1cb3e1;
+}
+.posts .sec-cont .recent {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.posts .sec-cont div {
+  width: 100%;
+  height: 457px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.posts .sec-cont .blog-1 {
+  width: 418px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 10px;
+}
+.posts .sec-cont .blog-1 h1 {
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: bold;
+  width: 100%;
+}
+.posts .sec-cont .blog-1 ul {
+  width: 100%;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.posts .sec-cont .blog-1 ul li a {
+  text-decoration: none;
+}
+.posts .sec-cont .blog-1 p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.Designing {
+  width: 100%;
+  height: 800px;
+  background-color: #1fa6cf;
+}
+.Designing .wors-n1 .wors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.Designing .wors-n1 .wors .nav {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
