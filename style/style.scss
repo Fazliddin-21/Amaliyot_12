@@ -88,8 +88,8 @@ header {
 
 .posts {
     width: 100%;
-    height: 396px;
-    background-color: #1cb3e1;
+    height: 538px;
+    background-color: #FFFFFF;
 
     .sec-cont {
         .recent {
@@ -153,7 +153,7 @@ header {
 .Designing {
     width: 100%;
     height: 800px;
-    background-color: #1fa6cf;
+    background-color: #FFFFFF;
     
     .wors-n1{
         .wors{
@@ -166,9 +166,63 @@ header {
                 height: 220px;
                 display: flex;
                 justify-content: space-between;
+                .img{
+                   width: 246px;
+                   height: 180px;
+                   background-color: aqua; 
+                }
+                h1{
+                    font-size: 30px;
+                    line-height: 4px;
+                    padding-top: 20px;
+                }
+                .imgs-1{
+                    width: 300px;
+                    height: 60px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    
+                    .img-2{
+                        width: 60px;
+                        height: 20px;
+                        background-color: rgb(8, 30, 30);
+                    }
+                }
+                p{
+                    width: 596px;
+                    height: 93px;
+                    font-size: 16px;
+                    line-height: 23px;
+                }
             }
 
         }
     }
 
+}
+.futer{
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    .blok{
+        .blok-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .blok-2{
+                width: 290px;
+                height: 90px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                .img{
+                    width: 23px;
+                    height: 23px;
+                    background-color: aqua;
+                }
+            }
+        }
+    }
 }

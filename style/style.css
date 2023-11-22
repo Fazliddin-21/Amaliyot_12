@@ -74,8 +74,8 @@ header .container .img-box {
 
 .posts {
   width: 100%;
-  height: 396px;
-  background-color: #1cb3e1;
+  height: 538px;
+  background-color: #FFFFFF;
 }
 .posts .sec-cont .recent {
   width: 100%;
@@ -126,7 +126,7 @@ header .container .img-box {
 .Designing {
   width: 100%;
   height: 800px;
-  background-color: #1fa6cf;
+  background-color: #FFFFFF;
 }
 .Designing .wors-n1 .wors {
   display: flex;
@@ -139,4 +139,56 @@ header .container .img-box {
   height: 220px;
   display: flex;
   justify-content: space-between;
+}
+.Designing .wors-n1 .wors .nav .img {
+  width: 246px;
+  height: 180px;
+  background-color: aqua;
+}
+.Designing .wors-n1 .wors .nav h1 {
+  font-size: 30px;
+  line-height: 4px;
+  padding-top: 20px;
+}
+.Designing .wors-n1 .wors .nav .imgs-1 {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Designing .wors-n1 .wors .nav .imgs-1 .img-2 {
+  width: 60px;
+  height: 20px;
+  background-color: rgb(8, 30, 30);
+}
+.Designing .wors-n1 .wors .nav p {
+  width: 596px;
+  height: 93px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.futer {
+  width: 100%;
+  height: 100px;
+  background-color: #FFFFFF;
+}
+.futer .blok .blok-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.futer .blok .blok-1 .blok-2 {
+  width: 290px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.futer .blok .blok-1 .blok-2 .img {
+  width: 23px;
+  height: 23px;
+  background-color: aqua;
 }/*# sourceMappingURL=style.css.map */
